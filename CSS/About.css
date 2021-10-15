@@ -1,0 +1,58 @@
+body {
+    background-color: #111314;
+    margin:0;
+    padding-top: 30px;
+   
+   
+ }
+ 
+ .patterns {
+   height: 100px;
+ 
+ }
+ 
+ .sub-heading{
+    color: rgb(16, 19, 19);
+ }
+ .sub-heading1{
+   text-indent: 7em;
+   font-size: 30px;
+ }
+ .my{
+   font-size: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   border: double rgb(12, 11, 11);
+   border-radius: 20px;
+   color: rgb(16, 16, 19);
+ }
+
+ svg text {
+   font-family: Lora; 
+   letter-spacing: 10px;
+   stroke: #db077f;
+   font-size: 100px;
+   font-weight: 100;
+   stroke-width: 2;
+  animation: textAnimate 5s infinite alternate;
+  
+ }
+ 
+ @keyframes textAnimate {
+   0% {
+     stroke-dasharray: 0 50%;
+     stroke-dashoffset:  20%;
+     fill:hsl(190, 88%, 14%)
+ 
+   }
+   
+   100% {
+     stroke-dasharray: 50% 0;
+     stroke-dashoffstet: -20%;
+     fill: rgba(181, 238, 248, 0)
+   }
+   
+ }
+ .list-item{
+    font-size: 25px;
+   
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Models</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+
+    body{
+      width: 100%;
+      min-height: 100vh;
+      background-image: url(image/i1.gif);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    img{
+      
+      padding: 20px;
+      padding-top: 50px;
+      
+     }  
+
+     body {
+          margin: 0;
+          height: 100vh;
+          display: grid;
+          place-items: center;
+          color: #696172;
+          font-family: system-ui;
+          font-size: 375%;
+          text-decoration: underline;
+        }
+
+          .effect3d {
+            animation-name: effect3d;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            font-size: 100px;
+          }
+          .reverse {
+            animation-direction: reverse;
+          }
+          @keyframes effect3d {
+            to {
+              text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+                0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+                0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+                0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+                0 20px 20px rgba(0, 0, 0, 0.15);
+            }
+}
+
+.bs-example{
+     
+     text-indent: 25em;
+     padding-bottom: 50px;
+     padding-top: 40px;
+   }
+   .btn{
+      float: left;
+    }
+</style>
+</head>
+<body>
+  <div class="bs-example">
+    <a href="index.html"><button type="button" class="btn btn-dark float-left ml-2">Home</button></a>
+     <a href="Work.html">  <button type="button" class="btn btn-dark float-left">Work</button></a>
+     </div>
+  <h1 class="effect3d">Models</h1>
+   <center>
+    <img src="Models/z1.png"  alt=""><img src="Models/z2.png"  alt=""><br><br>
+    <img src="Models/z3.png" alt="">
+    <img src="Models/z4.png"  alt=""><br><img src="Models/z5.png"  alt=""><img src="Models/z6.png" alt="">
+    <img src="Models/z7.png"  alt=""><img src="Models/z8.png"  alt=""><img src="Models/z9.png" alt="">
+    <img src="Models/z10.png" alt=""><img src="Models/z11.png" alt="">
+   </center>
+  
+   <br>
+  
+   
+    
+  <script>
+    const button = document.querySelector("button");
+const demoEl = document.querySelector(".effect3d");
+button.addEventListener("click", e => {
+demoEl.classList.remove('effect3d');
+setTimeout(() => {
+ demoEl.classList.add('effect3d');
+}, 0);
+demoEl.classList.toggle('reverse');
+});
+
+</script>
+
+<a href="Work.html"><button class="btn btn-outline-success b1" ><b> Back </b></button></a> </body>
+<audio src="music/audio2.mp3" autoplay="autoplay" loop="loop"></audio> 
+</html>

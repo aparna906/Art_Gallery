@@ -1,0 +1,68 @@
+.head{
+  padding-top: 5px;
+  
+}
+.h{
+  font-size: 50px;
+  
+}
+.moveimg{
+  padding-top:60px ;
+ 
+  
+}
+.img{
+  width: 100px;
+  height: 250px;
+}
+.ml6 {
+    position: relative;
+    /* font-weight: 900; */
+    font-size: 55px;
+    text-align: center;
+    color: #242463;
+    /* text-shadow: 6px 5px rgb(240, 213, 232);  */
+    text-transform: 25px;
+    letter-spacing: 10px;
+    text-decoration: double;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 2px;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+    text-align: center;
+    
+  }
+  
+  .ml6 .letter {
+     display: inline-block; 
+    line-height: 1em; 
+    text-align: center;
+    width: 60px;
+    
+    text-align: right;
+    padding-top: 80px;
+  }
+
+  .name{
+    font-size: 40px;
+    color: black;
+   text-indent: 1em; 
+   width: 620px;
+   
+   
+  }
+  .container{
+    float: left;
+    
+  }
+.sub-heading{
+  color: rgb(5, 5, 5);
+  font-size: 40px;
+  text-indent: 3em;
+ 
+}

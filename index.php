@@ -1,0 +1,9 @@
+<?php
+include_once("index.html");
+include_once("About.html");
+include_once("Work.html");
+include_once("Drawings.html");
+include_once("Paintings.html");
+include_once("Models.html");
+include_once("Showreel.html");
+?>
