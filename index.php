@@ -1,9 +1,3 @@
 <?php
 require_once("index.html");
-require_once("About.html");
-require_once("Work.html");
-require_once("Drawings.html");
-require_once("Paintings.html");
-require_once("Models.html");
-require_once("Showreel.html");
 ?>
