@@ -1,9 +1,9 @@
 <?php
-include_once("index.html");
-include_once("About.html");
-include_once("Work.html");
-include_once("Drawings.html");
-include_once("Paintings.html");
-include_once("Models.html");
-include_once("Showreel.html");
+require_once("index.html");
+require_once("About.html");
+require_once("Work.html");
+require_once("Drawings.html");
+require_once("Paintings.html");
+require_once("Models.html");
+require_once("Showreel.html");
 ?>
